@@ -1,0 +1,45 @@
+.dropdown{
+	border: 2px solid pink;
+	border-radius: 10px;
+	padding-right: 5px;
+}
+#saloon{
+	display: flex;
+	height: 900px;
+	flex-direction: row;
+	justify-content: space-around;
+	border-radius: 10px;
+	background-color: rgb(255, 77, 109);
+}
+.row{
+	
+}
+.gift{
+	height: 100px;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 90px !important;
+	background-color: rgb(237, 246, 249);
+	width: 40% !important;
+}
+a{
+	font-weight: bolder;
+}
+#writeup{
+	background-color: rgb(255, 77, 109);
+}
+h2, span, p{
+	color: white !important;
+	padding-top: 80px;
+}
+.sign{
+	color: black !important;
+}
+#forme{
+	height: 900px;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 90px !important;
+	background-color: rgb(237, 246, 249);
+	width: 40% !important;
+}

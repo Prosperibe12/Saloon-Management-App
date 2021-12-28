@@ -1,0 +1,57 @@
+#logo{
+	height: 90px;
+	width: 90px;
+}
+#search{
+	background-color: #FE7F9B;
+	margin-left: 10px;
+	font-weight: bolder;
+	color: white;
+}
+
+.log:hover{
+	background-color: #FE7F9B;
+	color: white !important;
+	border-radius: 7px;
+}
+#services{
+	display: flex;
+	height: 120px;
+	flex-direction: column;
+	border-radius: 10px;
+	justify-content: space-around;
+}
+.Beauty{
+	height: 70px;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(237, 246, 249);
+	padding-top: 15px;
+}
+.sidebars{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+}
+.sidebars:hover{
+	text-decoration: none;
+	text-color: #FE7F9B !important;
+}
+.description{
+	display: flex;
+	justify-content: space-between;
+}
+.booknow{
+	background-color: #FE7F9B;
+	border-radius: 10px;
+	height: 40px;
+}
+.amount{
+	color: #FE7F9B;
+	font-weight: bold;
+	font-style: italic;
+}
+

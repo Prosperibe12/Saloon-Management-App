@@ -1,0 +1,92 @@
+#logo{
+	height: 90px;
+	width: 90px;
+}
+#search{
+	background-color: #FE7F9B;
+	margin-left: 10px;
+	font-weight: bolder;
+	color: white;
+}
+
+.log:hover{
+	background-color: #FE7F9B;
+	color: white !important;
+	border-radius: 7px;
+}
+#overlay{
+		position: fixed; 
+	  display: none; 
+	  width: 100%; 
+	  height: 100%;
+	  z-index: 10px;
+	  background-color: rgba(0,0,0,0.2);
+}
+#services{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start; /*space-around*/;
+	border-radius: 10px;
+}
+.Beauty{
+	height: 70px;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 15px;
+	cursor: pointer;
+	background-color: rgb(237, 246, 249);
+}
+.sidebars{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+}
+.sidebars:hover{
+	text-decoration: none;
+	color: #FE7F9B;
+}
+/*#feature:hover{
+	text-decoration: none;
+	color: #FE7F9B;
+}*/
+.description{
+	display: flex;
+	justify-content: space-between;
+}
+.booknow{
+	background-color: #FE7F9B;
+	border-radius: 10px;
+	height: 40px;
+}
+.amount{
+	color: #FE7F9B;
+	font-weight: bold;
+	font-style: italic;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+#content{
+	position: absolute;
+        top: 1px;
+        left: 490px;
+        width: 350px;
+        border: 2px solid red;
+        height: 70px;
+        border-radius: 10px;
+        background-color: white;
+}
+
+
+
